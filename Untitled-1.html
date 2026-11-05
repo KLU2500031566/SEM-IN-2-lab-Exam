@@ -1,0 +1,48 @@
+
+import React from "react";
+
+// Navbar Component
+function NavBar() {
+  return (
+    <nav>
+      <h2>My Shopping Website</h2>
+      <p>Home | Products | Contact</p>
+    </nav>
+  );
+}
+
+// ProductList Component
+function ProductList() {
+  return (
+    <div>
+      <h2>Product List</h2>
+      <ul>
+        <li>Laptop</li>
+        <li>Mobile Phone</li>
+        <li>Headphones</li>
+      </ul>
+    </div>
+  );
+}
+
+// Footer Component
+function Footer() {
+  return (
+    <footer>
+      <p>Copyright 2026 My Shopping Website</p>
+    </footer>
+  );
+}
+
+// Main Component
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <ProductList />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
